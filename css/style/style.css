@@ -1,0 +1,419 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Alegreya Sans', sans-serif;
+}
+/* Start First Page */
+
+.firstSection {
+	width: 100%;
+	height: 110vh;
+	background-image: url(../../images/drew-coffman-1872.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+}
+.firstSection::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 110vh;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+	z-index: -1;
+}
+/* Start Navbar */
+.firstSection .navbar {
+	width: 50%;
+	float: left;
+	margin-bottom: 100px;
+}
+.firstSection .navbar img {
+	width: 177px;
+	height: 50px;
+	margin-top: 28px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.firstSection .navbar ul {
+	list-style: none;
+	line-height: 5;
+	margin-left: 150px;
+}
+.firstSection .navbar ul li {
+	display: inline-block;
+	padding: 10px 10px;
+}
+.firstSection .navbar ul li a {
+	text-decoration: none;
+	color: #e0dcd2;
+	font-size: 18px;
+	transition: all 0.5s ease;
+}
+.firstSection .navbar ul li a:hover {
+	color: #cfaf7e;
+}
+/* End Navbar */
+
+/* Start Introdaction  */
+.firstSection .details-information {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	color: #fff;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+.firstSection .details-information p {
+	font-size: 23px;
+	line-height: 1.86em;
+	margin-bottom: 10px;
+}
+.firstSection .details-information h1 {
+	font-size: 76px;
+}
+/* End Introdaction  */
+
+/* Start Buttons */
+.firstSection .buttons {
+	width: 100%;
+}
+.firstSection .buttons button {
+	border: none;
+	background: transparent;
+	color: #fff;
+	padding: 15px 28px;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: 'Alegreya Sans', sans-serif;
+	cursor: pointer;
+	border-radius: 4px;
+	transition: all 0.5s ease;
+	margin: 6px;
+}
+
+.firstSection .buttons button:first-child {
+	background-color: #8e7754;
+	border: 2px solid #8e7754;
+}
+.firstSection .buttons button:first-child:hover {
+	border: 2px solid #fff;
+	background-color: #fff;
+	color: #000;
+}
+
+.firstSection .buttons button:last-child {
+	border: 2px solid #fff;
+}
+.firstSection .buttons button:last-child:hover {
+	border: 2px solid #fff;
+	background-color: #fff;
+	color: #000;
+}
+/* End Buttons */
+
+/* End First Page */
+
+/* Start Second Page */
+
+.secondSection {
+	width: 100%;
+	/* height: 100vh; */
+	background-color: #fff;
+	padding-top: 40px;
+}
+.container {
+	width: 90%;
+	margin: auto;
+	overflow: auto;
+	padding: 50px 0;
+}
+.secondSection .sectionTwo {
+	float: left;
+	width: 50%;
+	padding: 1% 1% 5%;
+}
+.secondSection .sectionTwo img {
+	width: 100%;
+}
+
+.secondSection .SomeInformation {
+	padding: 5% 0 5% 5%;
+}
+.secondSection .SomeInformation h2 {
+	font-size: 32px;
+	color: #303030;
+}
+.secondSection .SomeInformation p {
+	font-size: 17px;
+	line-height: 2em;
+	margin: 31px 0;
+	color: #686868;
+}
+/* Start icons */
+
+.secondSection .SomeInformation .aboutUS p span i {
+	font-size: 25px;
+	color: #8e7754;
+	position: relative;
+	padding-right: 55px;
+}
+.secondSection .SomeInformation .aboutUS p span i::before {
+	position: absolute;
+	width: 27px;
+	height: 27px;
+	border-radius: 50%;
+	border: 1px solid #686868;
+	top: -25px;
+	left: -3px;
+	padding: 9px;
+}
+
+/* End icons */
+
+/* End Second Page */
+
+/* Start Third Page */
+
+.thirdSection {
+	width: 100%;
+	height: 100vh;
+	background-color: #f8f8f8;
+}
+
+.thirdSection .sectionThree {
+	width: 50%;
+	float: left;
+	padding: 2%;
+}
+.thirdSection .sectionThree img {
+	width: 100%;
+}
+.thirdSection .sectionThree h2 {
+	margin-top: 25%;
+	font-size: 32px;
+	font-weight: normal;
+}
+.thirdSection .sectionThree p {
+	margin-top: 5%;
+	line-height: 1.8;
+	color: #686868;
+	font-size: 17px;
+}
+/* End Third Page */
+
+/* Start Fourth Page */
+
+.fourthSection {
+	width: 100%;
+	height: 100vh;
+}
+.fourthSection .ourBooking {
+	text-align: center;
+}
+.fourthSection .ourBooking h2 {
+	font-size: 32px;
+	font-weight: normal;
+	margin-bottom: 2%;
+}
+.fourthSection .ourBooking p {
+	font-size: 17px;
+	color: #686868;
+}
+
+.fourthSection .bakes {
+	float: left;
+	width: 33%;
+	padding: 3%;
+	text-align: center;
+}
+.fourthSection .bakes img {
+	width: 100%;
+}
+
+.fourthSection .bakes h2 {
+	margin: 4% 0;
+	font-weight: normal;
+}
+.fourthSection .bakes p {
+	line-height: 1.8;
+	color: #686868;
+}
+/* End Fourth Page */
+
+/* Start Fifth Page  */
+
+.fifthSection {
+	width: 100%;
+	background-color: #f8f8f8;
+}
+.fifthSection .contactInformation {
+	width: 50%;
+	float: left;
+	padding: 2%;
+}
+.fifthSection .contactInformation iframe {
+	width: 100%;
+	position: relative;
+	height: 90vh;
+}
+.fifthSection .contactInformation img {
+	position: absolute;
+	right: 313px;
+	z-index: 1;
+	margin-top: 12%;
+}
+
+.fifthSection .contactInformation h2 {
+	font-size: 32px;
+	font-weight: normal;
+	margin-bottom: 60px;
+}
+
+.fifthSection .contactInformation p {
+	line-height: 1.8;
+	color: #686868;
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+
+.fifthSection .contactInformation h3 {
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+.fifthSection .contactInformation .details p span {
+	margin-right: 15px;
+}
+
+.fifthSection .contactInformation .details p span i {
+	font-size: 22px;
+	color: #8e7754;
+}
+/* End Fifth Page  */
+
+/* Start Footer */
+
+.footer {
+	width: 100%;
+	background-color: #403d38;
+}
+
+.footer .footerBaker {
+	width: 25%;
+	float: left;
+	padding: 2%;
+}
+.footer .footerBaker h3 {
+	color: #f2faff;
+	font-weight: normal;
+	margin: 20px 0;
+}
+.footer .footerBaker p {
+	color: #969696;
+}
+/* Start About Us */
+.footer .aboutUs p {
+	line-height: 1.8;
+	margin-bottom: 20px;
+}
+/* End AboutUs */
+
+/* Start why We Are Special */
+.footer .whyWeSpecial p {
+	line-height: 2.8;
+}
+.footer .whyWeSpecial p span {
+	margin-right: 10px;
+}
+.footer .whyWeSpecial p:nth-child(3) {
+	border-top: 1px solid #686868;
+	border-bottom: 1px solid #686868;
+}
+.footer .whyWeSpecial p:nth-child(4) {
+	border-bottom: 1px solid #686868;
+}
+.footer .whyWeSpecial p:nth-child(5) {
+	border-bottom: 1px solid #686868;
+}
+/* End why We Are Special */
+
+/*Start  opening Hours */
+.footer .openingHours p {
+	line-height: 2.8;
+}
+.footer .openingHours p:nth-child(3) {
+	border-top: 1px solid #686868;
+	border-bottom: 1px solid #686868;
+}
+.footer .openingHours p:nth-child(4) {
+	border-bottom: 1px solid #686868;
+}
+.footer .openingHours p:nth-child(5) {
+	border-bottom: 1px solid #686868;
+}
+.footer .openingHours p:nth-child(6) {
+	border-bottom: 1px solid #686868;
+}
+.footer .openingHours p span {
+	margin-right: 10px;
+}
+/*End  opening Hours */
+
+/* Start contact Details */
+.footer .contactDetails {
+	background-image: url(../../images/contact-details-map.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.footer .contactDetails p:nth-child(3) {
+	border-top: 1px solid #686868;
+}
+.footer .contactDetails p:nth-child(4) {
+	border-top: 1px solid #686868;
+	border-bottom: 1px solid #686868;
+}
+.footer .contactDetails p {
+	line-height: 2.8;
+	font-size: 18px;
+}
+.footer .contactDetails p span {
+	margin-right: 10px;
+}
+/* End contact Details */
+
+/* Start Copyright */
+.copyright {
+	width: 100%;
+	background-color: #353330;
+	text-align: center;
+	padding: 50px 0;
+}
+.copyright p {
+	color: #777;
+	margin: 15px 0;
+}
+.copyright i {
+	color: #484540;
+	font-size: 36px;
+	padding: .6%;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+.copyright i:hover:first-of-type {
+	color: #3b5998;
+}
+.copyright i:hover:nth-of-type(2) {
+	color: #dd4b39;
+}
+.copyright i:hover:nth-of-type(3) {
+	color: #007bb5;
+}
+.copyright i:hover:last-of-type {
+	color: #00aced;
+}
+/* End Copyright */
